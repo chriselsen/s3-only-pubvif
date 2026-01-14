@@ -1,5 +1,5 @@
 ! S3 prefix list for ca-central-1
-! Last updated: 2026-01-14 00:57:31 UTC
+! Last updated: 2026-01-14 01:00:41 UTC
 !
 ip prefix-list aws-s3-ca-central-1 seq 10 permit 1.178.92.0/24 le 24
 ip prefix-list aws-s3-ca-central-1 seq 20 permit 16.12.4.0/23 le 24
