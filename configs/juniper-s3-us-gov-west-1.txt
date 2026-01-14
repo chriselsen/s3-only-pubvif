@@ -1,5 +1,5 @@
 /* S3 prefix list for us-gov-west-1 */
-/* Last updated: 2026-01-14 00:41:57 UTC */
+/* Last updated: 2026-01-14 00:42:07 UTC */
 policy-options {
     prefix-list aws-s3-us-gov-west-1 {
         108.175.48.0/22 orlonger;

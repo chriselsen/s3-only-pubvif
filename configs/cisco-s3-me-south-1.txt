@@ -1,5 +1,5 @@
 ! S3 prefix list for me-south-1
-! Last updated: 2026-01-14 00:41:57 UTC
+! Last updated: 2026-01-14 00:42:07 UTC
 !
 ip prefix-list aws-s3-me-south-1 seq 10 permit 15.184.125.240/28 le 24
 ip prefix-list aws-s3-me-south-1 seq 20 permit 15.184.153.0/28 le 24
