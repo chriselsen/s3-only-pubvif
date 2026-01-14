@@ -111,10 +111,12 @@ def generate_juniper_config(region, prefixes, timestamp):
 def load_existing_config(filepath):
     if os.path.exists(filepath):
         with open(filepath, 'r') as f:
-            lines = [line for line in f.readlines() 
-                    if line.strip() and not line.strip().startswith(('!', '/*', '*/'))
-                    and not line.strip() == '}']
-            return ''.join(lines)
+            content = f.read()
+            # Extract just the prefix lines, excluding comments and timestamps
+            lines = [line for line in content.split('\n')
+                    if line.strip() and not line.strip().startswith(('!', '/*', '*/')) 
+                    and not line.strip() == '}' and 'Last updated' not in line]
+            return '\n'.join(lines)
     return None
 
 def main():
