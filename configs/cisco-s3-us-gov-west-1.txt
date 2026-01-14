@@ -1,5 +1,5 @@
 ! S3 prefix list for us-gov-west-1
-! Last updated: 2026-01-14 00:54:45 UTC
+! Last updated: 2026-01-14 00:57:31 UTC
 !
 ip prefix-list aws-s3-us-gov-west-1 seq 10 permit 108.175.48.0/22 le 24
 ip prefix-list aws-s3-us-gov-west-1 seq 20 permit 108.175.56.0/22 le 24
