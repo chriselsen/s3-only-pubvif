@@ -1,5 +1,5 @@
 ! S3 prefix list for sa-west-1
-! Last updated: 2026-01-14 00:32:54 UTC
+! Last updated: 2026-01-14 00:41:57 UTC
 !
 ip prefix-list aws-s3-sa-west-1 seq 10 permit 16.12.120.0/22 le 24
 ip prefix-list aws-s3-sa-west-1 seq 20 permit 16.15.24.0/22 le 24
