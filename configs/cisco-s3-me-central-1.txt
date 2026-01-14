@@ -1,5 +1,5 @@
 ! S3 prefix list for me-central-1
-! Last updated: 2026-01-14 00:45:00 UTC
+! Last updated: 2026-01-14 00:45:09 UTC
 !
 ip prefix-list aws-s3-me-central-1 seq 10 permit 3.28.70.112/28 le 24
 ip prefix-list aws-s3-me-central-1 seq 20 permit 3.28.70.48/28 le 24

@@ -1,5 +1,5 @@
 ! S3 prefix list for ap-southeast-5
-! Last updated: 2026-01-14 00:45:00 UTC
+! Last updated: 2026-01-14 00:45:09 UTC
 !
 ip prefix-list aws-s3-ap-southeast-5 seq 10 permit 16.12.42.0/23 le 24
 ip prefix-list aws-s3-ap-southeast-5 seq 20 permit 16.12.44.0/24 le 24
