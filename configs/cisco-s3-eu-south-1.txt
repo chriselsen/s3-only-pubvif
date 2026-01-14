@@ -1,5 +1,5 @@
 ! S3 prefix list for eu-south-1
-! Last updated: 2026-01-14 01:01:49 UTC
+! Last updated: 2026-01-14 01:02:16 UTC
 !
 ip prefix-list aws-s3-eu-south-1 seq 10 permit 16.12.21.0/24 le 24
 ip prefix-list aws-s3-eu-south-1 seq 20 permit 16.12.59.0/24 le 24
