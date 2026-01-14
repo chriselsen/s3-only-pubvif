@@ -1,5 +1,5 @@
 ! S3 prefix list for eu-central-1
-! Last updated: 2026-01-14 00:03:40 UTC
+! Last updated: 2026-01-14 00:32:54 UTC
 !
 ip prefix-list aws-s3-eu-central-1 seq 10 permit 1.178.10.0/24 le 24
 ip prefix-list aws-s3-eu-central-1 seq 20 permit 16.12.24.0/21 le 24
