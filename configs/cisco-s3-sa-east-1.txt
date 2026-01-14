@@ -1,5 +1,5 @@
 ! S3 prefix list for sa-east-1
-! Last updated: 2026-01-14 00:48:42 UTC
+! Last updated: 2026-01-14 00:48:50 UTC
 !
 ip prefix-list aws-s3-sa-east-1 seq 10 permit 1.178.95.0/24 le 24
 ip prefix-list aws-s3-sa-east-1 seq 20 permit 15.228.107.0/28 le 24
