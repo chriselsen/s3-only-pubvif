@@ -1,5 +1,5 @@
 ! S3 prefix list for eu-west-3
-! Last updated: 2026-01-14 01:00:41 UTC
+! Last updated: 2026-01-14 01:00:57 UTC
 !
 ip prefix-list aws-s3-eu-west-3 seq 10 permit 1.178.90.0/24 le 24
 ip prefix-list aws-s3-eu-west-3 seq 20 permit 13.36.84.48/28 le 24

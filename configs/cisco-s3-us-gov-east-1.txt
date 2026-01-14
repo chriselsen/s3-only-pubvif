@@ -1,5 +1,5 @@
 ! S3 prefix list for us-gov-east-1
-! Last updated: 2026-01-14 01:00:41 UTC
+! Last updated: 2026-01-14 01:00:57 UTC
 !
 ip prefix-list aws-s3-us-gov-east-1 seq 10 permit 108.175.52.0/22 le 24
 ip prefix-list aws-s3-us-gov-east-1 seq 20 permit 108.175.60.0/22 le 24
