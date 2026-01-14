@@ -1,5 +1,5 @@
 ! S3 prefix list for eu-north-1
-! Last updated: 2026-01-14 00:45:09 UTC
+! Last updated: 2026-01-14 00:46:51 UTC
 !
 ip prefix-list aws-s3-eu-north-1 seq 10 permit 1.178.93.0/24 le 24
 ip prefix-list aws-s3-eu-north-1 seq 20 permit 13.51.71.176/28 le 24
