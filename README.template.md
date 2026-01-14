@@ -49,6 +49,9 @@ ip prefix-list aws-s3-<region> seq <N> permit <prefix> le 24
 ipv6 prefix-list aws-s3-<region> seq <N> permit <prefix> le 48
 ```
 
+For more information on configuring prefix lists in Cisco IOS, see:
+- [BGP Prefix Filtering - Noction](https://www.noction.com/knowledge-base/bgp-prefix-filtering)
+
 ### Juniper
 
 ```
@@ -58,6 +61,9 @@ policy-options {
     }
 }
 ```
+
+For more information on configuring prefix lists in Juniper, see:
+- [Juniper: Example: Configuring a Prefix List](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/example/policy-prefix-list.html)
 
 ## Automation
 
