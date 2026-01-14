@@ -1,5 +1,5 @@
 ! S3 prefix list for ap-south-2
-! Last updated: 2026-01-14 00:48:50 UTC
+! Last updated: 2026-01-14 00:50:25 UTC
 !
 ip prefix-list aws-s3-ap-south-2 seq 10 permit 18.60.78.192/28 le 24
 ip prefix-list aws-s3-ap-south-2 seq 20 permit 18.60.78.208/28 le 24
