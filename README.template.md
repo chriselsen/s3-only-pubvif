@@ -4,7 +4,7 @@ This repository contains BGP prefix lists for filtering S3 traffic over AWS Dire
 
 ## Why?
 
-To use S3 with Direct Connect, customers often use a Public VIF. By filtering to only S3 prefixes for specific regions, you can limit the scope of routes received from AWS (AS16509).
+To use S3 with Direct Connect, customers often use a Public VIF. By filtering to only S3 prefixes for specific regions, you can limit the scope of routes received from AWS (AS16509). This allows you to route only S3 traffic over the Direct Connect connection while sending all other AWS traffic (EC2, etc.) over the Internet, reducing Direct Connect data transfer costs and bandwidth usage.
 
 ## Architecture
 
@@ -14,9 +14,9 @@ To use S3 with Direct Connect, customers often use a Public VIF. By filtering to
 │  Customer       │                                    │      AWS        │
 │  Network        │                                    │                 │
 │  ┌──────────┐   │                                    │   ┌──────────┐  │
-│  │  Router  │   │    Direct Connect Public VIF      │   │    S3    │  │
+│  │  Router  │   │    Direct Connect Public VIF       │   │    S3    │  │
 │  │  (with   │───┼───────────────────────────────────>│   │ (Region) │  │
-│  │ filters) │   │    ✓ S3 prefixes only (filtered)  │   └──────────┘  │
+│  │ filters) │   │    ✓ S3 prefixes only (filtered)   │   └──────────┘  │
 │  └────┬─────┘   │                                    │                 │
 │       │         │                                    │   ┌──────────┐  │
 │       │         │         Internet                   │   │   EC2    │  │
@@ -62,6 +62,52 @@ policy-options {
 ## Automation
 
 This repository is automatically updated via GitHub Actions when AWS publishes changes to ip-ranges.json.
+
+### Setting up the Lambda Webhook
+
+To automatically trigger updates when AWS publishes a new ip-ranges.json file:
+
+1. Subscribe an AWS Lambda function to the SNS topic `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`
+
+2. Use the Lambda function code from `lambda-webhook-trigger.js` in this repository
+
+3. Configure the following environment variables in your Lambda function:
+   - `GITHUB_OWNER` - Your GitHub username (e.g., `chriselsen`)
+   - `GITHUB_TOKEN` - GitHub Personal Access Token with `repo` scope
+   - `GITHUB_REPOS` - Comma-separated list of repositories (e.g., `s3-only-pubvif,AWS-Geofeed`)
+
+4. Create a GitHub Personal Access Token:
+   - Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+   - Generate new token with `repo` scope
+   - Store securely in Lambda environment variables
+
+### Testing the Webhook
+
+To manually trigger the workflow for testing:
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/OWNER/s3-only-pubvif/dispatches \
+  -d '{"event_type":"webhook"}'
+```
+
+Or use the GitHub UI:
+- Go to the **Actions** tab in your repository
+- Select the **generate-s3-prefix-lists** workflow
+- Click **Run workflow** → **Run workflow**
+
+Check the Actions tab to see the workflow run and verify it completes successfully.
+
+### Tracking Updates
+
+To receive notifications when S3 prefix lists are updated:
+
+1. **Watch this repository**: Click "Watch" → "All Activity" at the top of the page
+2. **Subscribe to releases**: Click "Watch" → "Custom" → Check "Releases" (a release is created for each update)
+3. **RSS feed**: Subscribe to the commits feed: `https://github.com/OWNER/s3-only-pubvif/commits/main.atom`
 
 ## Notes
 
