@@ -1,5 +1,5 @@
 /* S3 prefix list for ap-south-2 */
-/* Last updated: 2026-01-14 01:00:57 UTC */
+/* Last updated: 2026-01-14 01:01:49 UTC */
 policy-options {
     prefix-list aws-s3-ap-south-2 {
         18.60.78.192/28 orlonger;
