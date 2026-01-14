@@ -1,0 +1,14 @@
+/* S3 prefix list for me-west-1 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-me-west-1 {
+        16.12.84.0/23 orlonger;
+        16.12.86.0/24 orlonger;
+        16.15.16.0/22 orlonger;
+        2a05:d030:800::/40 orlonger;
+        2a05:d050:800::/40 orlonger;
+        2a05:d059:800::/40 orlonger;
+        2a05:d070:800::/40 orlonger;
+        2a05:d074:800::/40 orlonger;
+    }
+}

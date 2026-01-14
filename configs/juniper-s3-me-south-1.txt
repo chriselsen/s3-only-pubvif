@@ -1,0 +1,19 @@
+/* S3 prefix list for me-south-1 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-me-south-1 {
+        15.184.125.240/28 orlonger;
+        15.184.153.0/28 orlonger;
+        3.5.220.0/22 orlonger;
+        52.95.172.0/23 orlonger;
+        52.95.174.0/24 orlonger;
+        2a05:d030:e000::/40 orlonger;
+        2a05:d050:e000::/40 orlonger;
+        2a05:d059:e000::/40 orlonger;
+        2a05:d070:e000::/40 orlonger;
+        2a05:d074:e000::/40 orlonger;
+        2a05:d078:e000::/40 orlonger;
+        2a05:d079:e000::/40 orlonger;
+        2a05:d07a:e000::/40 orlonger;
+    }
+}

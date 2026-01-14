@@ -1,0 +1,13 @@
+! S3 prefix list for ca-west-1
+! Last updated: 2026-01-14 00:03:40 UTC
+!
+ip prefix-list aws-s3-ca-west-1 seq 10 permit 16.12.56.0/23 le 24
+ip prefix-list aws-s3-ca-west-1 seq 20 permit 16.12.58.0/24 le 24
+ip prefix-list aws-s3-ca-west-1 seq 30 permit 3.5.172.0/22 le 24
+ip prefix-list aws-s3-ca-west-1 seq 40 permit 40.176.101.64/28 le 24
+ip prefix-list aws-s3-ca-west-1 seq 50 permit 40.176.98.240/28 le 24
+ipv6 prefix-list aws-s3-ca-west-1 seq 60 permit 2600:1f60:a400::/40 le 48
+ipv6 prefix-list aws-s3-ca-west-1 seq 70 permit 2600:1fa0:a400::/40 le 48
+ipv6 prefix-list aws-s3-ca-west-1 seq 80 permit 2600:1fb9:a400::/40 le 48
+ipv6 prefix-list aws-s3-ca-west-1 seq 90 permit 2600:1ff0:a400::/40 le 48
+ipv6 prefix-list aws-s3-ca-west-1 seq 100 permit 2600:1ff4:a400::/40 le 48

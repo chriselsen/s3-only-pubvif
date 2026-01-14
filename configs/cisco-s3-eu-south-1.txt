@@ -1,0 +1,19 @@
+! S3 prefix list for eu-south-1
+! Last updated: 2026-01-14 00:03:40 UTC
+!
+ip prefix-list aws-s3-eu-south-1 seq 10 permit 16.12.21.0/24 le 24
+ip prefix-list aws-s3-eu-south-1 seq 20 permit 16.12.59.0/24 le 24
+ip prefix-list aws-s3-eu-south-1 seq 30 permit 3.5.248.0/22 le 24
+ip prefix-list aws-s3-eu-south-1 seq 40 permit 35.152.74.144/28 le 24
+ip prefix-list aws-s3-eu-south-1 seq 50 permit 35.152.74.160/28 le 24
+ip prefix-list aws-s3-eu-south-1 seq 60 permit 52.219.254.0/24 le 24
+ip prefix-list aws-s3-eu-south-1 seq 70 permit 52.95.151.0/24 le 24
+ip prefix-list aws-s3-eu-south-1 seq 80 permit 52.95.152.0/23 le 24
+ipv6 prefix-list aws-s3-eu-south-1 seq 90 permit 2a05:d030:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 100 permit 2a05:d050:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 110 permit 2a05:d059:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 120 permit 2a05:d070:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 130 permit 2a05:d074:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 140 permit 2a05:d078:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 150 permit 2a05:d079:a000::/40 le 48
+ipv6 prefix-list aws-s3-eu-south-1 seq 160 permit 2a05:d07a:a000::/40 le 48

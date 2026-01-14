@@ -1,0 +1,23 @@
+/* S3 prefix list for ap-southeast-3 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-ap-southeast-3 {
+        108.136.154.16/28 orlonger;
+        108.136.154.32/28 orlonger;
+        108.136.154.48/28 orlonger;
+        3.5.36.0/22 orlonger;
+        43.218.193.112/28 orlonger;
+        43.218.193.96/28 orlonger;
+        43.218.222.160/28 orlonger;
+        43.218.222.176/28 orlonger;
+        52.95.177.0/24 orlonger;
+        52.95.178.0/23 orlonger;
+        2406:da60:9000::/40 orlonger;
+        2406:daa0:9000::/40 orlonger;
+        2406:dab9:9000::/40 orlonger;
+        2406:daf0:9000::/40 orlonger;
+        2406:daf4:9000::/40 orlonger;
+        2406:daf8:9000::/40 orlonger;
+        2406:daf9:9000::/40 orlonger;
+    }
+}

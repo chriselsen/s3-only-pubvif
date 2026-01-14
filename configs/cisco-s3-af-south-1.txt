@@ -1,0 +1,17 @@
+! S3 prefix list for af-south-1
+! Last updated: 2026-01-14 00:03:40 UTC
+!
+ip prefix-list aws-s3-af-south-1 seq 10 permit 13.245.93.176/28 le 24
+ip prefix-list aws-s3-af-south-1 seq 20 permit 13.245.93.192/28 le 24
+ip prefix-list aws-s3-af-south-1 seq 30 permit 3.5.202.0/23 le 24
+ip prefix-list aws-s3-af-south-1 seq 40 permit 3.5.228.0/22 le 24
+ip prefix-list aws-s3-af-south-1 seq 50 permit 52.95.175.0/24 le 24
+ip prefix-list aws-s3-af-south-1 seq 60 permit 52.95.176.0/24 le 24
+ip prefix-list aws-s3-af-south-1 seq 70 permit 52.95.180.0/24 le 24
+ipv6 prefix-list aws-s3-af-south-1 seq 80 permit 2406:da60:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 90 permit 2406:daa0:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 100 permit 2406:dab9:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 110 permit 2406:daf0:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 120 permit 2406:daf4:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 130 permit 2406:daf8:1000::/40 le 48
+ipv6 prefix-list aws-s3-af-south-1 seq 140 permit 2406:daf9:1000::/40 le 48

@@ -1,0 +1,31 @@
+/* S3 prefix list for us-east-1 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-us-east-1 {
+        1.178.4.0/24 orlonger;
+        1.178.5.0/24 orlonger;
+        1.178.6.0/24 orlonger;
+        16.15.176.0/20 orlonger;
+        16.15.192.0/18 orlonger;
+        16.182.0.0/16 orlonger;
+        18.34.0.0/19 orlonger;
+        18.34.232.0/21 orlonger;
+        3.5.0.0/19 orlonger;
+        44.192.134.240/28 orlonger;
+        44.192.140.64/28 orlonger;
+        52.216.0.0/15 orlonger;
+        54.231.0.0/16 orlonger;
+        2600:1f60:8000::/39 orlonger;
+        2600:1fa0:2c00::/40 orlonger;
+        2600:1fa0:8000::/39 orlonger;
+        2600:1fb9:8000::/39 orlonger;
+        2600:1ff0:8000::/39 orlonger;
+        2600:1ff4:8000::/39 orlonger;
+        2600:1ff8:8000::/40 orlonger;
+        2600:1ff9:8000::/40 orlonger;
+        2600:1ffa:8000::/40 orlonger;
+        2600:f0f2:7010::/48 orlonger;
+        2600:f0f2:7011::/48 orlonger;
+        2600:f0f2:7012::/48 orlonger;
+    }
+}

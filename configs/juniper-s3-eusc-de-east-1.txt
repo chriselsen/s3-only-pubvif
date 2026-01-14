@@ -1,0 +1,12 @@
+/* S3 prefix list for eusc-de-east-1 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-eusc-de-east-1 {
+        83.118.240.0/21 orlonger;
+        2001:3fc5:800::/40 orlonger;
+        2001:3fc7:800::/40 orlonger;
+        2001:3fc7:8800::/40 orlonger;
+        2001:3fc7:9800::/40 orlonger;
+        2001:3fc7:a800::/40 orlonger;
+    }
+}

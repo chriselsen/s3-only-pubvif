@@ -1,0 +1,20 @@
+/* S3 prefix list for eu-south-2 */
+/* Last updated: 2026-01-14 00:03:40 UTC */
+policy-options {
+    prefix-list aws-s3-eu-south-2 {
+        16.15.12.0/22 orlonger;
+        18.100.209.224/28 orlonger;
+        18.100.209.240/28 orlonger;
+        3.5.126.0/23 orlonger;
+        3.5.32.0/22 orlonger;
+        52.95.136.0/23 orlonger;
+        52.95.138.0/24 orlonger;
+        2a05:d030:1000::/40 orlonger;
+        2a05:d050:1000::/40 orlonger;
+        2a05:d059:1000::/40 orlonger;
+        2a05:d070:1000::/40 orlonger;
+        2a05:d074:1000::/40 orlonger;
+        2a05:d078:1000::/40 orlonger;
+        2a05:d079:1000::/40 orlonger;
+    }
+}
