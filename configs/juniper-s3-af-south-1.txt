@@ -1,5 +1,5 @@
 /* S3 prefix list for af-south-1 */
-/* Last updated: 2026-01-14 01:02:16 UTC */
+/* Last updated: 2026-01-14 01:02:32 UTC */
 policy-options {
     prefix-list aws-s3-af-south-1 {
         13.245.93.176/28 orlonger;
