@@ -1,5 +1,5 @@
 ! S3 prefix list for ap-east-1
-! Last updated: 2026-01-14 00:42:07 UTC
+! Last updated: 2026-01-14 00:45:00 UTC
 !
 ip prefix-list aws-s3-ap-east-1 seq 10 permit 16.12.6.0/23 le 24
 ip prefix-list aws-s3-ap-east-1 seq 20 permit 16.12.8.0/24 le 24
