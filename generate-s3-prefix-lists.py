@@ -158,7 +158,9 @@ def main():
             updated_regions.append(f'{region} (Juniper)')
     
     if updated_regions:
-        print(f"Updated configs for: {', '.join(updated_regions)}")
+        print(f"Updated configs for: {", ".join(updated_regions)}")
+        # Generate README only when configs changed
+        generate_readme(s3_by_region, timestamp)
     else:
         print("No changes detected")
     
