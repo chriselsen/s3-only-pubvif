@@ -34,7 +34,7 @@ With BGP prefix filtering in place:
 
 ## Configuration Files
 
-Last updated: 2026-01-14 00:47:01 UTC
+Last updated: 2026-01-14 00:48:42 UTC
 
 | Region | Country | Region Name | Cisco IOS | Juniper |
 | --- | --- | --- | --- | --- |
@@ -63,18 +63,18 @@ Last updated: 2026-01-14 00:47:01 UTC
 | eu-west-1 | <img src="../../raw/main/images/flags/ie.svg" width="25px"> Ireland | Europe (Ireland) | [Cisco Config](../../raw/main/configs/cisco-s3-eu-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-eu-west-1.txt) |
 | eu-west-2 | <img src="../../raw/main/images/flags/gb.svg" width="25px"> United Kingdom | Europe (London) | [Cisco Config](../../raw/main/configs/cisco-s3-eu-west-2.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-eu-west-2.txt) |
 | eu-west-3 | <img src="../../raw/main/images/flags/fr.svg" width="25px"> France | Europe (Paris) | [Cisco Config](../../raw/main/configs/cisco-s3-eu-west-3.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-eu-west-3.txt) |
-| eusc-de-east-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> Germany | Europe Sovereign Cloud (Germany) | [Cisco Config](../../raw/main/configs/cisco-s3-eusc-de-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-eusc-de-east-1.txt) |
+| eusc-de-east-1 | <img src="../../raw/main/images/flags/de.svg" width="25px"> Germany | Europe Sovereign Cloud (Germany) | [Cisco Config](../../raw/main/configs/cisco-s3-eusc-de-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-eusc-de-east-1.txt) |
 | il-central-1 | <img src="../../raw/main/images/flags/il.svg" width="25px"> Israel | Israel (Tel Aviv) | [Cisco Config](../../raw/main/configs/cisco-s3-il-central-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-il-central-1.txt) |
 | me-central-1 | <img src="../../raw/main/images/flags/ae.svg" width="25px"> UAE | Middle East (UAE) | [Cisco Config](../../raw/main/configs/cisco-s3-me-central-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-me-central-1.txt) |
 | me-south-1 | <img src="../../raw/main/images/flags/bh.svg" width="25px"> Bahrain | Middle East (Bahrain) | [Cisco Config](../../raw/main/configs/cisco-s3-me-south-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-me-south-1.txt) |
-| me-west-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> Israel | Middle East (Tel Aviv) | [Cisco Config](../../raw/main/configs/cisco-s3-me-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-me-west-1.txt) |
+| me-west-1 | <img src="../../raw/main/images/flags/il.svg" width="25px"> Israel | Middle East (Tel Aviv) | [Cisco Config](../../raw/main/configs/cisco-s3-me-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-me-west-1.txt) |
 | mx-central-1 | <img src="../../raw/main/images/flags/mx.svg" width="25px"> Mexico | Mexico (Central) | [Cisco Config](../../raw/main/configs/cisco-s3-mx-central-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-mx-central-1.txt) |
 | sa-east-1 | <img src="../../raw/main/images/flags/br.svg" width="25px"> Brazil | South America (São Paulo) | [Cisco Config](../../raw/main/configs/cisco-s3-sa-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-sa-east-1.txt) |
-| sa-west-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> Chile | South America (Santiago) | [Cisco Config](../../raw/main/configs/cisco-s3-sa-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-sa-west-1.txt) |
+| sa-west-1 | <img src="../../raw/main/images/flags/cl.svg" width="25px"> Chile | South America (Santiago) | [Cisco Config](../../raw/main/configs/cisco-s3-sa-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-sa-west-1.txt) |
 | us-east-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US East (N. Virginia) | [Cisco Config](../../raw/main/configs/cisco-s3-us-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-east-1.txt) |
 | us-east-2 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US East (Ohio) | [Cisco Config](../../raw/main/configs/cisco-s3-us-east-2.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-east-2.txt) |
-| us-gov-east-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> USA | AWS GovCloud (US-East) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-east-1.txt) |
-| us-gov-west-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> USA | AWS GovCloud (US-West) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-west-1.txt) |
+| us-gov-east-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | AWS GovCloud (US-East) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-east-1.txt) |
+| us-gov-west-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | AWS GovCloud (US-West) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-west-1.txt) |
 | us-west-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US West (N. California) | [Cisco Config](../../raw/main/configs/cisco-s3-us-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-west-1.txt) |
 | us-west-2 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US West (Oregon) | [Cisco Config](../../raw/main/configs/cisco-s3-us-west-2.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-west-2.txt) |
 
