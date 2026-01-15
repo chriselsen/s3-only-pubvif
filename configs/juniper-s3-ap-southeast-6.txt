@@ -1,12 +1,10 @@
 /* S3 prefix list for ap-southeast-6 */
-/* Last updated: 2026-01-14 01:02:32 UTC */
+/* Last updated: 2026-01-15 05:26:10 UTC */
 policy-options {
     prefix-list aws-s3-ap-southeast-6 {
         16.12.81.0/24 orlonger;
         16.12.82.0/23 orlonger;
         16.15.8.0/22 orlonger;
-        3.102.119.112/28 orlonger;
-        3.102.119.96/28 orlonger;
         2406:da60:2800::/40 orlonger;
         2406:daa0:2800::/40 orlonger;
         2406:dab9:2800::/40 orlonger;

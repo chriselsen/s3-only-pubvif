@@ -1,19 +1,17 @@
 ! S3 prefix list for ap-east-1
-! Last updated: 2026-01-14 01:02:32 UTC
+! Last updated: 2026-01-15 05:26:10 UTC
 !
 ip prefix-list aws-s3-ap-east-1 seq 10 permit 16.12.6.0/23 le 24
 ip prefix-list aws-s3-ap-east-1 seq 20 permit 16.12.8.0/24 le 24
-ip prefix-list aws-s3-ap-east-1 seq 30 permit 18.167.88.112/28 le 24
-ip prefix-list aws-s3-ap-east-1 seq 40 permit 18.167.88.96/28 le 24
-ip prefix-list aws-s3-ap-east-1 seq 50 permit 3.5.214.0/23 le 24
-ip prefix-list aws-s3-ap-east-1 seq 60 permit 3.5.236.0/22 le 24
-ip prefix-list aws-s3-ap-east-1 seq 70 permit 52.95.160.0/23 le 24
-ip prefix-list aws-s3-ap-east-1 seq 80 permit 52.95.162.0/24 le 24
-ipv6 prefix-list aws-s3-ap-east-1 seq 90 permit 2406:da60:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 100 permit 2406:daa0:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 110 permit 2406:dab9:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 120 permit 2406:daf0:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 130 permit 2406:daf4:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 140 permit 2406:daf8:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 150 permit 2406:daf9:e000::/40 le 48
-ipv6 prefix-list aws-s3-ap-east-1 seq 160 permit 2406:dafa:e000::/40 le 48
+ip prefix-list aws-s3-ap-east-1 seq 30 permit 3.5.214.0/23 le 24
+ip prefix-list aws-s3-ap-east-1 seq 40 permit 3.5.236.0/22 le 24
+ip prefix-list aws-s3-ap-east-1 seq 50 permit 52.95.160.0/23 le 24
+ip prefix-list aws-s3-ap-east-1 seq 60 permit 52.95.162.0/24 le 24
+ipv6 prefix-list aws-s3-ap-east-1 seq 70 permit 2406:da60:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 80 permit 2406:daa0:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 90 permit 2406:dab9:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 100 permit 2406:daf0:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 110 permit 2406:daf4:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 120 permit 2406:daf8:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 130 permit 2406:daf9:e000::/40 le 48
+ipv6 prefix-list aws-s3-ap-east-1 seq 140 permit 2406:dafa:e000::/40 le 48

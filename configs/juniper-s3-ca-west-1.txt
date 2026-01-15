@@ -1,12 +1,10 @@
 /* S3 prefix list for ca-west-1 */
-/* Last updated: 2026-01-14 01:02:32 UTC */
+/* Last updated: 2026-01-15 05:26:10 UTC */
 policy-options {
     prefix-list aws-s3-ca-west-1 {
         16.12.56.0/23 orlonger;
         16.12.58.0/24 orlonger;
         3.5.172.0/22 orlonger;
-        40.176.101.64/28 orlonger;
-        40.176.98.240/28 orlonger;
         2600:1f60:a400::/40 orlonger;
         2600:1fa0:a400::/40 orlonger;
         2600:1fb9:a400::/40 orlonger;

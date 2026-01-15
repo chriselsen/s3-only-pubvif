@@ -1,12 +1,10 @@
 /* S3 prefix list for ca-central-1 */
-/* Last updated: 2026-01-14 01:02:32 UTC */
+/* Last updated: 2026-01-15 05:26:10 UTC */
 policy-options {
     prefix-list aws-s3-ca-central-1 {
         1.178.92.0/24 orlonger;
         16.12.4.0/23 orlonger;
         3.5.252.0/22 orlonger;
-        3.98.24.0/28 orlonger;
-        3.98.24.16/28 orlonger;
         52.95.145.0/24 orlonger;
         52.95.146.0/23 orlonger;
         52.95.190.0/24 orlonger;

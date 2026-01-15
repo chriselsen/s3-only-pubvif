@@ -1,10 +1,8 @@
 /* S3 prefix list for ap-northeast-2 */
-/* Last updated: 2026-01-14 01:02:32 UTC */
+/* Last updated: 2026-01-15 05:26:10 UTC */
 policy-options {
     prefix-list aws-s3-ap-northeast-2 {
         1.178.91.0/24 orlonger;
-        3.36.167.64/28 orlonger;
-        3.36.167.80/28 orlonger;
         3.5.140.0/22 orlonger;
         3.5.144.0/23 orlonger;
         3.5.184.0/21 orlonger;

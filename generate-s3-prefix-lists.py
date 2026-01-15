@@ -83,12 +83,18 @@ def generate_cisco_config(region, prefixes, timestamp):
     
     seq = 10
     for ipv4 in sorted(prefixes['ipv4']):
-        lines.append(f"ip prefix-list aws-s3-{region} seq {seq} permit {ipv4} le 24")
-        seq += 10
+        # Only include prefixes /24 or larger (smaller prefix length number)
+        prefix_len = int(ipv4.split('/')[1])
+        if prefix_len <= 24:
+            lines.append(f"ip prefix-list aws-s3-{region} seq {seq} permit {ipv4} le 24")
+            seq += 10
     
     for ipv6 in sorted(prefixes['ipv6']):
-        lines.append(f"ipv6 prefix-list aws-s3-{region} seq {seq} permit {ipv6} le 48")
-        seq += 10
+        # Only include prefixes /48 or larger (smaller prefix length number)
+        prefix_len = int(ipv6.split('/')[1])
+        if prefix_len <= 48:
+            lines.append(f"ipv6 prefix-list aws-s3-{region} seq {seq} permit {ipv6} le 48")
+            seq += 10
     
     return '\n'.join(lines) + '\n'
 
@@ -98,10 +104,16 @@ def generate_juniper_config(region, prefixes, timestamp):
     lines.append(f"    prefix-list aws-s3-{region} {{")
     
     for ipv4 in sorted(prefixes['ipv4']):
-        lines.append(f"        {ipv4} orlonger;")
+        # Only include prefixes /24 or larger (smaller prefix length number)
+        prefix_len = int(ipv4.split('/')[1])
+        if prefix_len <= 24:
+            lines.append(f"        {ipv4} orlonger;")
     
     for ipv6 in sorted(prefixes['ipv6']):
-        lines.append(f"        {ipv6} orlonger;")
+        # Only include prefixes /48 or larger (smaller prefix length number)
+        prefix_len = int(ipv6.split('/')[1])
+        if prefix_len <= 48:
+            lines.append(f"        {ipv6} orlonger;")
     
     lines.append("    }")
     lines.append("}")

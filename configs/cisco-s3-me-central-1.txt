@@ -1,20 +1,13 @@
 ! S3 prefix list for me-central-1
-! Last updated: 2026-01-14 01:02:32 UTC
+! Last updated: 2026-01-15 05:26:10 UTC
 !
-ip prefix-list aws-s3-me-central-1 seq 10 permit 3.28.70.112/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 20 permit 3.28.70.48/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 30 permit 3.28.70.96/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 40 permit 3.29.147.48/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 50 permit 3.29.202.240/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 60 permit 3.5.48.0/22 le 24
-ip prefix-list aws-s3-me-central-1 seq 70 permit 51.112.11.64/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 80 permit 51.112.11.80/28 le 24
-ip prefix-list aws-s3-me-central-1 seq 90 permit 52.95.187.0/24 le 24
-ip prefix-list aws-s3-me-central-1 seq 100 permit 52.95.188.0/23 le 24
-ipv6 prefix-list aws-s3-me-central-1 seq 110 permit 2406:da60:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 120 permit 2406:daa0:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 130 permit 2406:dab9:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 140 permit 2406:daf0:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 150 permit 2406:daf4:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 160 permit 2406:daf8:7000::/40 le 48
-ipv6 prefix-list aws-s3-me-central-1 seq 170 permit 2406:daf9:7000::/40 le 48
+ip prefix-list aws-s3-me-central-1 seq 10 permit 3.5.48.0/22 le 24
+ip prefix-list aws-s3-me-central-1 seq 20 permit 52.95.187.0/24 le 24
+ip prefix-list aws-s3-me-central-1 seq 30 permit 52.95.188.0/23 le 24
+ipv6 prefix-list aws-s3-me-central-1 seq 40 permit 2406:da60:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 50 permit 2406:daa0:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 60 permit 2406:dab9:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 70 permit 2406:daf0:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 80 permit 2406:daf4:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 90 permit 2406:daf8:7000::/40 le 48
+ipv6 prefix-list aws-s3-me-central-1 seq 100 permit 2406:daf9:7000::/40 le 48
