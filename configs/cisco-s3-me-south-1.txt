@@ -1,14 +1,16 @@
 ! S3 prefix list for me-south-1
-! Last updated: 2026-01-15 05:26:10 UTC
+! Last updated: 2026-01-20 22:19:57 UTC
 !
-ip prefix-list aws-s3-me-south-1 seq 10 permit 3.5.220.0/22 le 24
-ip prefix-list aws-s3-me-south-1 seq 20 permit 52.95.172.0/23 le 24
-ip prefix-list aws-s3-me-south-1 seq 30 permit 52.95.174.0/24 le 24
-ipv6 prefix-list aws-s3-me-south-1 seq 40 permit 2a05:d030:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 50 permit 2a05:d050:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 60 permit 2a05:d059:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 70 permit 2a05:d070:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 80 permit 2a05:d074:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 90 permit 2a05:d078:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 100 permit 2a05:d079:e000::/40 le 48
-ipv6 prefix-list aws-s3-me-south-1 seq 110 permit 2a05:d07a:e000::/40 le 48
+ip prefix-list aws-s3-me-south-1 seq 10 permit 1.178.16.0/24 le 24
+ip prefix-list aws-s3-me-south-1 seq 20 permit 3.5.220.0/22 le 24
+ip prefix-list aws-s3-me-south-1 seq 30 permit 52.95.172.0/23 le 24
+ip prefix-list aws-s3-me-south-1 seq 40 permit 52.95.174.0/24 le 24
+ipv6 prefix-list aws-s3-me-south-1 seq 50 permit 2600:f0f1:86::/48 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 60 permit 2a05:d030:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 70 permit 2a05:d050:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 80 permit 2a05:d059:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 90 permit 2a05:d070:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 100 permit 2a05:d074:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 110 permit 2a05:d078:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 120 permit 2a05:d079:e000::/40 le 48
+ipv6 prefix-list aws-s3-me-south-1 seq 130 permit 2a05:d07a:e000::/40 le 48
