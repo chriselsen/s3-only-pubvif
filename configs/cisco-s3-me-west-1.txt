@@ -1,5 +1,5 @@
 ! S3 prefix list for me-west-1
-! Last updated: 2026-01-14 01:02:32 UTC
+! Last updated: 2026-01-27 19:51:53 UTC
 !
 ip prefix-list aws-s3-me-west-1 seq 10 permit 16.12.84.0/23 le 24
 ip prefix-list aws-s3-me-west-1 seq 20 permit 16.12.86.0/24 le 24
@@ -9,3 +9,5 @@ ipv6 prefix-list aws-s3-me-west-1 seq 50 permit 2a05:d050:800::/40 le 48
 ipv6 prefix-list aws-s3-me-west-1 seq 60 permit 2a05:d059:800::/40 le 48
 ipv6 prefix-list aws-s3-me-west-1 seq 70 permit 2a05:d070:800::/40 le 48
 ipv6 prefix-list aws-s3-me-west-1 seq 80 permit 2a05:d074:800::/40 le 48
+ipv6 prefix-list aws-s3-me-west-1 seq 90 permit 2a05:d078:800::/40 le 48
+ipv6 prefix-list aws-s3-me-west-1 seq 100 permit 2a05:d079:800::/40 le 48

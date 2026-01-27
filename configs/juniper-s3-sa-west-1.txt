@@ -1,5 +1,5 @@
 /* S3 prefix list for sa-west-1 */
-/* Last updated: 2026-01-27 18:21:23 UTC */
+/* Last updated: 2026-01-27 19:51:53 UTC */
 policy-options {
     prefix-list aws-s3-sa-west-1 {
         16.12.120.0/22 orlonger;
@@ -10,5 +10,6 @@ policy-options {
         2600:1ff0:ec00::/40 orlonger;
         2600:1ff4:ec00::/40 orlonger;
         2600:1ff8:ec00::/40 orlonger;
+        2600:1ff9:ec00::/40 orlonger;
     }
 }

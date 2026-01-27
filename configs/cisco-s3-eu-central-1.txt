@@ -1,5 +1,5 @@
 ! S3 prefix list for eu-central-1
-! Last updated: 2026-01-15 05:26:10 UTC
+! Last updated: 2026-01-27 19:51:53 UTC
 !
 ip prefix-list aws-s3-eu-central-1 seq 10 permit 1.178.10.0/24 le 24
 ip prefix-list aws-s3-eu-central-1 seq 20 permit 16.12.24.0/21 le 24
@@ -31,5 +31,9 @@ ipv6 prefix-list aws-s3-eu-central-1 seq 270 permit 2a05:d070:b000::/40 le 48
 ipv6 prefix-list aws-s3-eu-central-1 seq 280 permit 2a05:d074:4000::/40 le 48
 ipv6 prefix-list aws-s3-eu-central-1 seq 290 permit 2a05:d074:b000::/40 le 48
 ipv6 prefix-list aws-s3-eu-central-1 seq 300 permit 2a05:d078:4000::/40 le 48
-ipv6 prefix-list aws-s3-eu-central-1 seq 310 permit 2a05:d079:4000::/40 le 48
-ipv6 prefix-list aws-s3-eu-central-1 seq 320 permit 2a05:d07a:4000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 310 permit 2a05:d078:b000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 320 permit 2a05:d078:f000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 330 permit 2a05:d079:4000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 340 permit 2a05:d079:b000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 350 permit 2a05:d079:f000::/40 le 48
+ipv6 prefix-list aws-s3-eu-central-1 seq 360 permit 2a05:d07a:4000::/40 le 48

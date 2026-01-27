@@ -1,5 +1,5 @@
 /* S3 prefix list for eu-central-1 */
-/* Last updated: 2026-01-15 05:26:10 UTC */
+/* Last updated: 2026-01-27 19:51:53 UTC */
 policy-options {
     prefix-list aws-s3-eu-central-1 {
         1.178.10.0/24 orlonger;
@@ -32,7 +32,11 @@ policy-options {
         2a05:d074:4000::/40 orlonger;
         2a05:d074:b000::/40 orlonger;
         2a05:d078:4000::/40 orlonger;
+        2a05:d078:b000::/40 orlonger;
+        2a05:d078:f000::/40 orlonger;
         2a05:d079:4000::/40 orlonger;
+        2a05:d079:b000::/40 orlonger;
+        2a05:d079:f000::/40 orlonger;
         2a05:d07a:4000::/40 orlonger;
     }
 }

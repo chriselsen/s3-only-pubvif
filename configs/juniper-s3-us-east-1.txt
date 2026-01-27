@@ -1,5 +1,5 @@
 /* S3 prefix list for us-east-1 */
-/* Last updated: 2026-01-27 18:21:23 UTC */
+/* Last updated: 2026-01-27 19:51:53 UTC */
 policy-options {
     prefix-list aws-s3-us-east-1 {
         1.178.4.0/24 orlonger;
@@ -22,26 +22,10 @@ policy-options {
         2600:1fb9:8000::/39 orlonger;
         2600:1ff0:8000::/39 orlonger;
         2600:1ff4:8000::/39 orlonger;
-        2600:1ff8:2c80::/48 orlonger;
-        2600:1ff8:8010::/48 orlonger;
-        2600:1ff8:8020::/48 orlonger;
-        2600:1ff8:8030::/48 orlonger;
-        2600:1ff8:8040::/48 orlonger;
-        2600:1ff8:8060::/48 orlonger;
-        2600:1ff8:8070::/48 orlonger;
-        2600:1ff8:8080::/48 orlonger;
-        2600:1ff8:8090::/48 orlonger;
-        2600:1ff8:80a0::/48 orlonger;
-        2600:1ff8:80b0::/48 orlonger;
-        2600:1ff8:80c0::/48 orlonger;
-        2600:1ff8:80d0::/48 orlonger;
-        2600:1ff8:80e0::/48 orlonger;
-        2600:1ff8:80f0::/48 orlonger;
-        2600:1ff8:8120::/48 orlonger;
-        2600:1ff8:8150::/48 orlonger;
-        2600:1ff8:81a0::/48 orlonger;
-        2600:1ff8:81c0::/48 orlonger;
-        2600:1ff9:8000::/40 orlonger;
+        2600:1ff8:2c00::/40 orlonger;
+        2600:1ff8:8000::/39 orlonger;
+        2600:1ff9:2c00::/40 orlonger;
+        2600:1ff9:8000::/39 orlonger;
         2600:1ffa:8000::/40 orlonger;
         2600:f0f0:6100::/48 orlonger;
         2600:f0f0:6101::/48 orlonger;
