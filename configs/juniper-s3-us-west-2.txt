@@ -1,5 +1,5 @@
 /* S3 prefix list for us-west-2 */
-/* Last updated: 2026-01-26 08:20:56 UTC */
+/* Last updated: 2026-01-27 18:21:23 UTC */
 policy-options {
     prefix-list aws-s3-us-west-2 {
         1.178.65.0/24 orlonger;
@@ -21,7 +21,22 @@ policy-options {
         2600:1fb9:4000::/39 orlonger;
         2600:1ff0:4000::/39 orlonger;
         2600:1ff4:4000::/39 orlonger;
-        2600:1ff8:4000::/40 orlonger;
+        2600:1ff8:4010::/48 orlonger;
+        2600:1ff8:4020::/48 orlonger;
+        2600:1ff8:4030::/48 orlonger;
+        2600:1ff8:4040::/48 orlonger;
+        2600:1ff8:4050::/48 orlonger;
+        2600:1ff8:4060::/48 orlonger;
+        2600:1ff8:4090::/48 orlonger;
+        2600:1ff8:40a0::/48 orlonger;
+        2600:1ff8:40b0::/48 orlonger;
+        2600:1ff8:40c0::/48 orlonger;
+        2600:1ff8:40d0::/48 orlonger;
+        2600:1ff8:40e0::/48 orlonger;
+        2600:1ff8:40f0::/48 orlonger;
+        2600:1ff8:4100::/48 orlonger;
+        2600:1ff8:4120::/48 orlonger;
+        2600:1ff8:4140::/48 orlonger;
         2600:1ff9:4000::/40 orlonger;
         2600:1ff9:41a0::/46 orlonger;
         2600:1ff9:41c0::/46 orlonger;

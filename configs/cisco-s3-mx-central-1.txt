@@ -1,5 +1,5 @@
 ! S3 prefix list for mx-central-1
-! Last updated: 2026-01-15 05:26:10 UTC
+! Last updated: 2026-01-27 18:21:23 UTC
 !
 ip prefix-list aws-s3-mx-central-1 seq 10 permit 16.12.71.0/24 le 24
 ip prefix-list aws-s3-mx-central-1 seq 20 permit 16.12.72.0/23 le 24
@@ -9,3 +9,4 @@ ipv6 prefix-list aws-s3-mx-central-1 seq 50 permit 2600:1fa0:7400::/40 le 48
 ipv6 prefix-list aws-s3-mx-central-1 seq 60 permit 2600:1fb9:7400::/40 le 48
 ipv6 prefix-list aws-s3-mx-central-1 seq 70 permit 2600:1ff0:7400::/40 le 48
 ipv6 prefix-list aws-s3-mx-central-1 seq 80 permit 2600:1ff4:7400::/40 le 48
+ipv6 prefix-list aws-s3-mx-central-1 seq 90 permit 2600:1ff8:7400::/40 le 48
