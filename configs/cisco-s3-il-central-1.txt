@@ -1,13 +1,15 @@
 ! S3 prefix list for il-central-1
-! Last updated: 2026-01-15 05:26:10 UTC
+! Last updated: 2026-01-29 21:23:16 UTC
 !
-ip prefix-list aws-s3-il-central-1 seq 10 permit 16.12.12.0/23 le 24
-ip prefix-list aws-s3-il-central-1 seq 20 permit 16.12.14.0/24 le 24
-ip prefix-list aws-s3-il-central-1 seq 30 permit 3.5.56.0/22 le 24
-ipv6 prefix-list aws-s3-il-central-1 seq 40 permit 2a05:d030:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 50 permit 2a05:d050:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 60 permit 2a05:d059:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 70 permit 2a05:d070:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 80 permit 2a05:d074:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 90 permit 2a05:d078:5000::/40 le 48
-ipv6 prefix-list aws-s3-il-central-1 seq 100 permit 2a05:d079:5000::/40 le 48
+ip prefix-list aws-s3-il-central-1 seq 10 permit 1.178.25.0/24 le 24
+ip prefix-list aws-s3-il-central-1 seq 20 permit 16.12.12.0/23 le 24
+ip prefix-list aws-s3-il-central-1 seq 30 permit 16.12.14.0/24 le 24
+ip prefix-list aws-s3-il-central-1 seq 40 permit 3.5.56.0/22 le 24
+ipv6 prefix-list aws-s3-il-central-1 seq 50 permit 2600:f0f1:8f::/48 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 60 permit 2a05:d030:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 70 permit 2a05:d050:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 80 permit 2a05:d059:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 90 permit 2a05:d070:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 100 permit 2a05:d074:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 110 permit 2a05:d078:5000::/40 le 48
+ipv6 prefix-list aws-s3-il-central-1 seq 120 permit 2a05:d079:5000::/40 le 48
