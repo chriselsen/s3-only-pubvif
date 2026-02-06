@@ -1,0 +1,14 @@
+! S3 prefix list for us-gov-west-1
+! Last updated: 2026-02-06 19:27:50 UTC
+!
+ip prefix-list aws-s3-us-gov-west-1 seq 10 permit 108.175.48.0/22 le 24
+ip prefix-list aws-s3-us-gov-west-1 seq 20 permit 108.175.56.0/22 le 24
+ip prefix-list aws-s3-us-gov-west-1 seq 30 permit 136.18.0.0/23 le 24
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 40 permit 2600:1f60:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 50 permit 2600:1fa0:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 60 permit 2600:1fb9:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 70 permit 2600:1ff0:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 80 permit 2600:1ff4:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 90 permit 2600:1ff8:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 100 permit 2600:1ff9:2000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-west-1 seq 110 permit 2600:1ffa:2000::/40 le 48

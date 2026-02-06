@@ -1,0 +1,27 @@
+/* S3 prefix list for us-gov-all */
+/* Last updated: 2026-02-06 19:27:50 UTC */
+policy-options {
+    prefix-list aws-s3-us-gov-all {
+        108.175.48.0/22 orlonger;
+        108.175.52.0/22 orlonger;
+        108.175.56.0/22 orlonger;
+        108.175.60.0/22 orlonger;
+        136.18.0.0/23 orlonger;
+        2600:1f60:2000::/40 orlonger;
+        2600:1f60:5000::/40 orlonger;
+        2600:1fa0:2000::/40 orlonger;
+        2600:1fa0:5000::/40 orlonger;
+        2600:1fb9:2000::/40 orlonger;
+        2600:1fb9:5000::/40 orlonger;
+        2600:1ff0:2000::/40 orlonger;
+        2600:1ff0:5000::/40 orlonger;
+        2600:1ff4:2000::/40 orlonger;
+        2600:1ff4:5000::/40 orlonger;
+        2600:1ff8:2000::/40 orlonger;
+        2600:1ff8:5000::/36 orlonger;
+        2600:1ff9:2000::/40 orlonger;
+        2600:1ff9:5000::/40 orlonger;
+        2600:1ffa:2000::/40 orlonger;
+        2600:1ffa:5000::/40 orlonger;
+    }
+}

@@ -1,0 +1,35 @@
+# S3 prefix list for ap-east-2
+# Last updated: 2026-02-06 19:27:50 UTC
+
+/configure {
+    router Base {
+        policy-options {
+            prefix-list "aws-s3-ap-east-2" {
+                prefix 1.178.31.0/24 type longer {
+                }
+                prefix 16.12.78.0/23 type longer {
+                }
+                prefix 16.12.80.0/24 type longer {
+                }
+                prefix 3.5.196.0/22 type longer {
+                }
+                prefix 2406:da60:c800::/40 type longer {
+                }
+                prefix 2406:daa0:c800::/40 type longer {
+                }
+                prefix 2406:dab9:c800::/40 type longer {
+                }
+                prefix 2406:daf0:c800::/40 type longer {
+                }
+                prefix 2406:daf4:c800::/40 type longer {
+                }
+                prefix 2406:daf8:c800::/40 type longer {
+                }
+                prefix 2406:daf9:c800::/40 type longer {
+                }
+                prefix 2600:f0f2:7025::/48 type longer {
+                }
+            }
+        }
+    }
+}

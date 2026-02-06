@@ -1,0 +1,35 @@
+# S3 prefix list for ap-southeast-3
+# Last updated: 2026-02-06 19:27:50 UTC
+
+/configure {
+    router Base {
+        policy-options {
+            prefix-list "aws-s3-ap-southeast-3" {
+                prefix 1.178.19.0/24 type longer {
+                }
+                prefix 3.5.36.0/22 type longer {
+                }
+                prefix 52.95.177.0/24 type longer {
+                }
+                prefix 52.95.178.0/23 type longer {
+                }
+                prefix 2406:da60:9000::/40 type longer {
+                }
+                prefix 2406:daa0:9000::/40 type longer {
+                }
+                prefix 2406:dab9:9000::/40 type longer {
+                }
+                prefix 2406:daf0:9000::/40 type longer {
+                }
+                prefix 2406:daf4:9000::/40 type longer {
+                }
+                prefix 2406:daf8:9000::/40 type longer {
+                }
+                prefix 2406:daf9:9000::/40 type longer {
+                }
+                prefix 2600:f0f1:89::/48 type longer {
+                }
+            }
+        }
+    }
+}

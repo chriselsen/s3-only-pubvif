@@ -1,0 +1,35 @@
+# S3 prefix list for eu-central-2
+# Last updated: 2026-02-06 19:27:50 UTC
+
+/configure {
+    router Base {
+        policy-options {
+            prefix-list "aws-s3-eu-central-2" {
+                prefix 1.178.21.0/24 type longer {
+                }
+                prefix 3.5.52.0/22 type longer {
+                }
+                prefix 52.95.139.0/24 type longer {
+                }
+                prefix 52.95.140.0/23 type longer {
+                }
+                prefix 2600:f0f1:8b::/48 type longer {
+                }
+                prefix 2a05:d030:9000::/40 type longer {
+                }
+                prefix 2a05:d050:9000::/40 type longer {
+                }
+                prefix 2a05:d059:9000::/40 type longer {
+                }
+                prefix 2a05:d070:9000::/40 type longer {
+                }
+                prefix 2a05:d074:9000::/40 type longer {
+                }
+                prefix 2a05:d078:9000::/40 type longer {
+                }
+                prefix 2a05:d079:9000::/40 type longer {
+                }
+            }
+        }
+    }
+}

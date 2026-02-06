@@ -1,0 +1,17 @@
+! S3 prefix list for ap-southeast-2
+! Last updated: 2026-02-06 19:27:50 UTC
+!
+ip prefix-list aws-s3-ap-southeast-2 seq 10 permit 1.178.11.0/24 le 24
+ip prefix-list aws-s3-ap-southeast-2 seq 20 permit 16.12.74.0/24 le 24
+ip prefix-list aws-s3-ap-southeast-2 seq 30 permit 3.5.164.0/22 le 24
+ip prefix-list aws-s3-ap-southeast-2 seq 40 permit 3.5.168.0/23 le 24
+ip prefix-list aws-s3-ap-southeast-2 seq 50 permit 52.95.128.0/21 le 24
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 60 permit 2406:da60:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 70 permit 2406:daa0:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 80 permit 2406:dab9:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 90 permit 2406:daf0:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 100 permit 2406:daf4:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 110 permit 2406:daf8:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 120 permit 2406:daf9:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 130 permit 2406:dafa:c000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-2 seq 140 permit 2600:f0f2:7019::/48 le 48

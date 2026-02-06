@@ -1,0 +1,29 @@
+# S3 prefix list for us-gov-all
+# Last updated: 2026-02-06 19:27:50 UTC
+#
+# Import with: /import file-name=mikrotik-s3-us-gov-all.rsc
+
+/ip firewall address-list remove [find list=aws-s3-us-gov-all]
+/ipv6 firewall address-list remove [find list=aws-s3-us-gov-all]
+
+/ip firewall address-list add list=aws-s3-us-gov-all address=108.175.48.0/22
+/ip firewall address-list add list=aws-s3-us-gov-all address=108.175.52.0/22
+/ip firewall address-list add list=aws-s3-us-gov-all address=108.175.56.0/22
+/ip firewall address-list add list=aws-s3-us-gov-all address=108.175.60.0/22
+/ip firewall address-list add list=aws-s3-us-gov-all address=136.18.0.0/23
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1f60:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1f60:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1fa0:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1fa0:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1fb9:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1fb9:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff0:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff0:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff4:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff4:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff8:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff8:5000::/36
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff9:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ff9:5000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ffa:2000::/40
+/ipv6 firewall address-list add list=aws-s3-us-gov-all address=2600:1ffa:5000::/40

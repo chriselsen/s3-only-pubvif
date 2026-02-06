@@ -36,13 +36,29 @@ With BGP prefix filtering in place:
 
 Last updated: {{TIMESTAMP}}
 
-| Region | Country | Region Name | Cisco IOS | Juniper |
-| --- | --- | --- | --- | --- |
+### Per-Region Configs
+
+| Region | Country | Region Name | Cisco IOS | Juniper | Arista EOS | Nokia SR OS | Mikrotik |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 {{REGION_TABLE}}
+
+### Combined Region Configs
+
+For convenience, combined configs aggregate prefixes from multiple regions:
+
+| Group | Description | Cisco IOS | Juniper | Arista EOS | Nokia SR OS | Mikrotik |
+| --- | --- | --- | --- | --- | --- | --- |
+{{GROUP_TABLE}}
+
+## Data Export
+
+Machine-readable prefix data is available in JSON and YAML formats:
+- [s3-prefixes.json](../../raw/main/data/s3-prefixes.json)
+- [s3-prefixes.yaml](../../raw/main/data/s3-prefixes.yaml)
 
 ## Usage
 
-### Cisco IOS
+### Cisco IOS / Arista EOS
 
 ```
 ip prefix-list aws-s3-<region> seq <N> permit <prefix> le 24
@@ -65,6 +81,30 @@ policy-options {
 For more information on configuring prefix lists in Juniper, see:
 - [Juniper: Example: Configuring a Prefix List](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/example/policy-prefix-list.html)
 
+### Nokia SR OS
+
+```
+/configure {
+    router Base {
+        policy-options {
+            prefix-list "aws-s3-<region>" {
+                prefix <prefix> type longer {
+                }
+            }
+        }
+    }
+}
+```
+
+### Mikrotik RouterOS
+
+```
+/ip firewall address-list add list=aws-s3-<region> address=<prefix>
+/ipv6 firewall address-list add list=aws-s3-<region> address=<prefix>
+```
+
+Import the `.rsc` files directly with: `/import file-name=mikrotik-s3-<region>.rsc`
+
 ## Automation
 
 This repository is automatically updated via GitHub Actions when AWS publishes changes to ip-ranges.json.
@@ -73,19 +113,22 @@ This repository is automatically updated via GitHub Actions when AWS publishes c
 
 To automatically trigger updates when AWS publishes a new ip-ranges.json file:
 
-1. Subscribe an AWS Lambda function to the SNS topic `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`
+1. Create a secret in AWS Secrets Manager named `github-webhook-credentials`:
+   ```json
+   {
+     "GITHUB_OWNER": "your-username",
+     "GITHUB_TOKEN": "ghp_your_token",
+     "GITHUB_REPOS": "s3-only-pubvif"
+   }
+   ```
 
-2. Use the Lambda function code from `lambda-webhook-trigger.js` in this repository
+2. Subscribe an AWS Lambda function to the SNS topic `arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged`
 
-3. Configure the following environment variables in your Lambda function:
-   - `GITHUB_OWNER` - Your GitHub username (e.g., `chriselsen`)
-   - `GITHUB_TOKEN` - GitHub Personal Access Token with `repo` scope
-   - `GITHUB_REPOS` - Comma-separated list of repositories (e.g., `s3-only-pubvif,AWS-Geofeed`)
+3. Use the Lambda function code from `lambda-webhook-trigger.js` in this repository
 
-4. Create a GitHub Personal Access Token:
-   - Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
-   - Generate new token with `repo` scope
-   - Store securely in Lambda environment variables
+4. Add IAM permission for `secretsmanager:GetSecretValue` to the Lambda execution role
+
+5. Set environment variable `SECRET_NAME` (optional, defaults to `github-webhook-credentials`)
 
 ### Testing the Webhook
 
@@ -96,7 +139,7 @@ curl -X POST \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/repos/OWNER/s3-only-pubvif/dispatches \
+  https://api.github.com/repos/{{OWNER}}/s3-only-pubvif/dispatches \
   -d '{"event_type":"webhook"}'
 ```
 
@@ -113,7 +156,7 @@ To receive notifications when S3 prefix lists are updated:
 
 1. **Watch this repository**: Click "Watch" → "All Activity" at the top of the page
 2. **Subscribe to releases**: Click "Watch" → "Custom" → Check "Releases" (a release is created for each update)
-3. **RSS feed**: Subscribe to the commits feed: `https://github.com/OWNER/s3-only-pubvif/commits/main.atom`
+3. **RSS feed**: Subscribe to the commits feed: `https://github.com/{{OWNER}}/s3-only-pubvif/commits/main.atom`
 
 ## Notes
 

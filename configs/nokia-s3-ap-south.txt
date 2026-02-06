@@ -1,0 +1,77 @@
+# S3 prefix list for ap-south
+# Last updated: 2026-02-06 19:27:50 UTC
+
+/configure {
+    router Base {
+        policy-options {
+            prefix-list "aws-s3-ap-south" {
+                prefix 1.178.23.0/24 type longer {
+                }
+                prefix 1.178.88.0/24 type longer {
+                }
+                prefix 16.12.3.0/24 type longer {
+                }
+                prefix 16.12.36.0/22 type longer {
+                }
+                prefix 16.12.40.0/23 type longer {
+                }
+                prefix 3.2.69.0/24 type longer {
+                }
+                prefix 3.5.208.0/22 type longer {
+                }
+                prefix 3.5.212.0/23 type longer {
+                }
+                prefix 3.5.44.0/22 type longer {
+                }
+                prefix 52.219.156.0/22 type longer {
+                }
+                prefix 52.219.160.0/23 type longer {
+                }
+                prefix 52.219.62.0/23 type longer {
+                }
+                prefix 52.219.64.0/22 type longer {
+                }
+                prefix 52.95.184.0/23 type longer {
+                }
+                prefix 52.95.186.0/24 type longer {
+                }
+                prefix 2406:da60:a000::/40 type longer {
+                }
+                prefix 2406:da60:b000::/40 type longer {
+                }
+                prefix 2406:daa0:a000::/40 type longer {
+                }
+                prefix 2406:daa0:b000::/40 type longer {
+                }
+                prefix 2406:dab9:a000::/40 type longer {
+                }
+                prefix 2406:dab9:b000::/40 type longer {
+                }
+                prefix 2406:daf0:a000::/40 type longer {
+                }
+                prefix 2406:daf0:b000::/40 type longer {
+                }
+                prefix 2406:daf4:a000::/40 type longer {
+                }
+                prefix 2406:daf4:b000::/40 type longer {
+                }
+                prefix 2406:daf8:a000::/40 type longer {
+                }
+                prefix 2406:daf8:b000::/40 type longer {
+                }
+                prefix 2406:daf9:a000::/40 type longer {
+                }
+                prefix 2406:daf9:b000::/40 type longer {
+                }
+                prefix 2406:dafa:a000::/40 type longer {
+                }
+                prefix 2600:f0f0:6105::/48 type longer {
+                }
+                prefix 2600:f0f1:8d::/48 type longer {
+                }
+                prefix 2600:f0f2:701a::/48 type longer {
+                }
+            }
+        }
+    }
+}

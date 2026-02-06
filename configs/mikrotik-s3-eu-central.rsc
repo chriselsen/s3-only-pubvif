@@ -1,0 +1,56 @@
+# S3 prefix list for eu-central
+# Last updated: 2026-02-06 19:27:50 UTC
+#
+# Import with: /import file-name=mikrotik-s3-eu-central.rsc
+
+/ip firewall address-list remove [find list=aws-s3-eu-central]
+/ipv6 firewall address-list remove [find list=aws-s3-eu-central]
+
+/ip firewall address-list add list=aws-s3-eu-central address=1.178.10.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=1.178.21.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=16.12.24.0/21
+/ip firewall address-list add list=aws-s3-eu-central address=16.12.32.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=16.15.20.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=3.5.120.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=3.5.134.0/23
+/ip firewall address-list add list=aws-s3-eu-central address=3.5.136.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=3.5.52.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.140.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.168.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.169.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.170.0/23
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.208.0/23
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.210.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.211.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.218.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.44.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=52.219.72.0/22
+/ip firewall address-list add list=aws-s3-eu-central address=52.95.139.0/24
+/ip firewall address-list add list=aws-s3-eu-central address=52.95.140.0/23
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2600:f0f1:8b::/48
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2600:f0f2:7018::/48
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d030:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d030:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d030:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d050:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d050:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d050:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d050:f000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d059:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d059:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d059:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d070:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d070:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d070:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d074:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d074:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d074:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d078:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d078:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d078:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d078:f000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d079:4000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d079:9000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d079:b000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d079:f000::/40
+/ipv6 firewall address-list add list=aws-s3-eu-central address=2a05:d07a:4000::/40
