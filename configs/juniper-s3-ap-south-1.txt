@@ -1,5 +1,5 @@
 /* S3 prefix list for ap-south-1 */
-/* Last updated: 2026-01-28 01:50:26 UTC */
+/* Last updated: 2026-03-12 18:26:33 UTC */
 policy-options {
     prefix-list aws-s3-ap-south-1 {
         1.178.88.0/24 orlonger;
@@ -16,6 +16,7 @@ policy-options {
         2406:da60:a000::/40 orlonger;
         2406:daa0:a000::/40 orlonger;
         2406:dab9:a000::/40 orlonger;
+        2406:daef:a000::/40 orlonger;
         2406:daf0:a000::/40 orlonger;
         2406:daf4:a000::/40 orlonger;
         2406:daf8:a000::/40 orlonger;

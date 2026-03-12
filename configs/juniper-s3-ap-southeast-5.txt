@@ -1,5 +1,5 @@
 /* S3 prefix list for ap-southeast-5 */
-/* Last updated: 2026-01-27 19:51:53 UTC */
+/* Last updated: 2026-03-12 18:26:33 UTC */
 policy-options {
     prefix-list aws-s3-ap-southeast-5 {
         1.178.102.0/24 orlonger;
@@ -9,6 +9,7 @@ policy-options {
         2406:da60:800::/40 orlonger;
         2406:daa0:800::/40 orlonger;
         2406:dab9:800::/40 orlonger;
+        2406:daef:800::/40 orlonger;
         2406:daf0:800::/40 orlonger;
         2406:daf4:800::/40 orlonger;
         2406:daf8:800::/40 orlonger;

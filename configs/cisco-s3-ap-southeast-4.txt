@@ -1,5 +1,5 @@
 ! S3 prefix list for ap-southeast-4
-! Last updated: 2026-01-27 00:50:52 UTC
+! Last updated: 2026-03-12 18:26:33 UTC
 !
 ip prefix-list aws-s3-ap-southeast-4 seq 10 permit 1.178.24.0/24 le 24
 ip prefix-list aws-s3-ap-southeast-4 seq 20 permit 3.5.40.0/22 le 24
@@ -8,8 +8,9 @@ ip prefix-list aws-s3-ap-southeast-4 seq 40 permit 52.95.168.0/24 le 24
 ipv6 prefix-list aws-s3-ap-southeast-4 seq 50 permit 2406:da60:f000::/40 le 48
 ipv6 prefix-list aws-s3-ap-southeast-4 seq 60 permit 2406:daa0:f000::/40 le 48
 ipv6 prefix-list aws-s3-ap-southeast-4 seq 70 permit 2406:dab9:f000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-4 seq 80 permit 2406:daf0:f000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-4 seq 90 permit 2406:daf4:f000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-4 seq 100 permit 2406:daf8:f000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-4 seq 110 permit 2406:daf9:f000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-4 seq 120 permit 2600:f0f1:8e::/48 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 80 permit 2406:daef:f000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 90 permit 2406:daf0:f000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 100 permit 2406:daf4:f000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 110 permit 2406:daf8:f000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 120 permit 2406:daf9:f000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-4 seq 130 permit 2600:f0f1:8e::/48 le 48

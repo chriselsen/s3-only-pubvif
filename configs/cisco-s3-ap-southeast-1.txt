@@ -1,5 +1,5 @@
 ! S3 prefix list for ap-southeast-1
-! Last updated: 2026-01-27 19:51:53 UTC
+! Last updated: 2026-03-12 18:26:33 UTC
 !
 ip prefix-list aws-s3-ap-southeast-1 seq 10 permit 1.178.89.0/24 le 24
 ip prefix-list aws-s3-ap-southeast-1 seq 20 permit 16.12.48.0/21 le 24
@@ -20,15 +20,17 @@ ipv6 prefix-list aws-s3-ap-southeast-1 seq 160 permit 2406:daa0:8800::/40 le 48
 ipv6 prefix-list aws-s3-ap-southeast-1 seq 170 permit 2406:daa0:a800::/40 le 48
 ipv6 prefix-list aws-s3-ap-southeast-1 seq 180 permit 2406:dab9:8000::/40 le 48
 ipv6 prefix-list aws-s3-ap-southeast-1 seq 190 permit 2406:dab9:8800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 200 permit 2406:daf0:8000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 210 permit 2406:daf0:8800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 220 permit 2406:daf4:8000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 230 permit 2406:daf4:8800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 240 permit 2406:daf8:8000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 250 permit 2406:daf8:8800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 260 permit 2406:daf8:a800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 270 permit 2406:daf9:8000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 280 permit 2406:daf9:8800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 290 permit 2406:daf9:a800::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 300 permit 2406:dafa:8000::/40 le 48
-ipv6 prefix-list aws-s3-ap-southeast-1 seq 310 permit 2600:f0f2:701b::/48 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 200 permit 2406:daef:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 210 permit 2406:daef:8800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 220 permit 2406:daf0:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 230 permit 2406:daf0:8800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 240 permit 2406:daf4:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 250 permit 2406:daf4:8800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 260 permit 2406:daf8:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 270 permit 2406:daf8:8800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 280 permit 2406:daf8:a800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 290 permit 2406:daf9:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 300 permit 2406:daf9:8800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 310 permit 2406:daf9:a800::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 320 permit 2406:dafa:8000::/40 le 48
+ipv6 prefix-list aws-s3-ap-southeast-1 seq 330 permit 2600:f0f2:701b::/48 le 48

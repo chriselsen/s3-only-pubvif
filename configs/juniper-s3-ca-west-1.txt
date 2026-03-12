@@ -1,5 +1,5 @@
 /* S3 prefix list for ca-west-1 */
-/* Last updated: 2026-01-29 21:23:16 UTC */
+/* Last updated: 2026-03-12 18:26:33 UTC */
 policy-options {
     prefix-list aws-s3-ca-west-1 {
         1.178.26.0/24 orlonger;
@@ -9,6 +9,7 @@ policy-options {
         2600:1f60:a400::/40 orlonger;
         2600:1fa0:a400::/40 orlonger;
         2600:1fb9:a400::/40 orlonger;
+        2600:1fef:a400::/40 orlonger;
         2600:1ff0:a400::/40 orlonger;
         2600:1ff4:a400::/40 orlonger;
         2600:1ff8:a400::/40 orlonger;

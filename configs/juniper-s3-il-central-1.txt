@@ -1,5 +1,5 @@
 /* S3 prefix list for il-central-1 */
-/* Last updated: 2026-01-29 21:23:16 UTC */
+/* Last updated: 2026-03-12 18:26:33 UTC */
 policy-options {
     prefix-list aws-s3-il-central-1 {
         1.178.25.0/24 orlonger;
@@ -10,6 +10,7 @@ policy-options {
         2a05:d030:5000::/40 orlonger;
         2a05:d050:5000::/40 orlonger;
         2a05:d059:5000::/40 orlonger;
+        2a05:d06f:5000::/40 orlonger;
         2a05:d070:5000::/40 orlonger;
         2a05:d074:5000::/40 orlonger;
         2a05:d078:5000::/40 orlonger;
