@@ -1,10 +1,11 @@
 /* S3 prefix list for eu-west-2 */
-/* Last updated: 2026-03-12 18:26:33 UTC */
+/* Last updated: 2026-03-16 21:55:19 UTC */
 policy-options {
     prefix-list aws-s3-eu-west-2 {
         1.178.94.0/24 orlonger;
         16.12.15.0/24 orlonger;
         16.12.16.0/23 orlonger;
+        3.2.72.0/24 orlonger;
         3.5.244.0/22 orlonger;
         52.219.219.0/24 orlonger;
         52.95.142.0/23 orlonger;
@@ -12,6 +13,7 @@ policy-options {
         52.95.148.0/23 orlonger;
         52.95.150.0/24 orlonger;
         52.95.191.0/24 orlonger;
+        2600:f0f0:6108::/48 orlonger;
         2600:f0f1:80::/48 orlonger;
         2a05:d030:c000::/40 orlonger;
         2a05:d050:c000::/40 orlonger;

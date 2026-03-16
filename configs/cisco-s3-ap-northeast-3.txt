@@ -1,19 +1,21 @@
 ! S3 prefix list for ap-northeast-3
-! Last updated: 2026-03-12 18:26:33 UTC
+! Last updated: 2026-03-16 21:55:19 UTC
 !
 ip prefix-list aws-s3-ap-northeast-3 seq 10 permit 1.178.101.0/24 le 24
-ip prefix-list aws-s3-ap-northeast-3 seq 20 permit 3.5.240.0/22 le 24
-ip prefix-list aws-s3-ap-northeast-3 seq 30 permit 52.95.157.0/24 le 24
-ip prefix-list aws-s3-ap-northeast-3 seq 40 permit 52.95.158.0/23 le 24
-ip prefix-list aws-s3-ap-northeast-3 seq 50 permit 52.95.181.0/24 le 24
-ip prefix-list aws-s3-ap-northeast-3 seq 60 permit 52.95.182.0/23 le 24
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 70 permit 2406:da60:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 80 permit 2406:daa0:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 90 permit 2406:dab9:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 100 permit 2406:daef:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 110 permit 2406:daf0:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 120 permit 2406:daf4:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 130 permit 2406:daf8:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 140 permit 2406:daf9:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 150 permit 2406:dafa:6000::/40 le 48
-ipv6 prefix-list aws-s3-ap-northeast-3 seq 160 permit 2600:f0f1:83::/48 le 48
+ip prefix-list aws-s3-ap-northeast-3 seq 20 permit 3.2.82.0/24 le 24
+ip prefix-list aws-s3-ap-northeast-3 seq 30 permit 3.5.240.0/22 le 24
+ip prefix-list aws-s3-ap-northeast-3 seq 40 permit 52.95.157.0/24 le 24
+ip prefix-list aws-s3-ap-northeast-3 seq 50 permit 52.95.158.0/23 le 24
+ip prefix-list aws-s3-ap-northeast-3 seq 60 permit 52.95.181.0/24 le 24
+ip prefix-list aws-s3-ap-northeast-3 seq 70 permit 52.95.182.0/23 le 24
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 80 permit 2406:da60:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 90 permit 2406:daa0:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 100 permit 2406:dab9:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 110 permit 2406:daef:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 120 permit 2406:daf0:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 130 permit 2406:daf4:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 140 permit 2406:daf8:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 150 permit 2406:daf9:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 160 permit 2406:dafa:6000::/40 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 170 permit 2600:f0f0:6114::/48 le 48
+ipv6 prefix-list aws-s3-ap-northeast-3 seq 180 permit 2600:f0f1:83::/48 le 48

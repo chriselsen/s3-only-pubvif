@@ -1,10 +1,11 @@
 /* S3 prefix list for sa-east-1 */
-/* Last updated: 2026-03-12 18:26:33 UTC */
+/* Last updated: 2026-03-16 21:55:19 UTC */
 policy-options {
     prefix-list aws-s3-sa-east-1 {
         1.178.95.0/24 orlonger;
         16.12.0.0/23 orlonger;
         16.12.2.0/24 orlonger;
+        3.2.80.0/24 orlonger;
         3.5.232.0/22 orlonger;
         52.95.163.0/24 orlonger;
         52.95.164.0/23 orlonger;
@@ -17,6 +18,7 @@ policy-options {
         2600:1ff8:e000::/40 orlonger;
         2600:1ff9:e000::/40 orlonger;
         2600:1ffa:e000::/40 orlonger;
+        2600:f0f0:610c::/48 orlonger;
         2600:f0f1:81::/48 orlonger;
     }
 }
