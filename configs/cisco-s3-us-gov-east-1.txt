@@ -1,15 +1,17 @@
 ! S3 prefix list for us-gov-east-1
-! Last updated: 2026-03-12 18:26:33 UTC
+! Last updated: 2026-04-21 03:24:19 UTC
 !
 ip prefix-list aws-s3-us-gov-east-1 seq 10 permit 108.175.52.0/22 le 24
 ip prefix-list aws-s3-us-gov-east-1 seq 20 permit 108.175.60.0/22 le 24
-ip prefix-list aws-s3-us-gov-east-1 seq 30 permit 31.220.252.0/24 le 24
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 40 permit 2600:1f60:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 50 permit 2600:1fa0:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 60 permit 2600:1fb9:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 70 permit 2600:1fef:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 80 permit 2600:1ff0:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 90 permit 2600:1ff4:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 100 permit 2600:1ff8:5000::/36 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 110 permit 2600:1ff9:5000::/40 le 48
-ipv6 prefix-list aws-s3-us-gov-east-1 seq 120 permit 2600:1ffa:5000::/40 le 48
+ip prefix-list aws-s3-us-gov-east-1 seq 30 permit 3.2.100.0/24 le 24
+ip prefix-list aws-s3-us-gov-east-1 seq 40 permit 31.220.252.0/24 le 24
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 50 permit 2600:1f60:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 60 permit 2600:1fa0:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 70 permit 2600:1fb9:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 80 permit 2600:1fef:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 90 permit 2600:1ff0:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 100 permit 2600:1ff4:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 110 permit 2600:1ff8:5000::/36 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 120 permit 2600:1ff9:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 130 permit 2600:1ffa:5000::/40 le 48
+ipv6 prefix-list aws-s3-us-gov-east-1 seq 140 permit 2600:f0f0:6124::/48 le 48
