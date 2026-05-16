@@ -1,5 +1,5 @@
 ! S3 prefix list for us-west-2
-! Last updated: 2026-05-15 07:56:08 UTC
+! Last updated: 2026-05-16 00:04:34 UTC
 !
 ip prefix-list aws-s3-us-west-2 seq 10 permit 1.178.65.0/24 le 24
 ip prefix-list aws-s3-us-west-2 seq 20 permit 1.178.9.0/24 le 24
@@ -16,19 +16,15 @@ ip prefix-list aws-s3-us-west-2 seq 120 permit 3.5.80.0/21 le 24
 ip prefix-list aws-s3-us-west-2 seq 130 permit 52.218.128.0/17 le 24
 ip prefix-list aws-s3-us-west-2 seq 140 permit 52.92.128.0/17 le 24
 ipv6 prefix-list aws-s3-us-west-2 seq 150 permit 2600:1f60:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 160 permit 2600:1f61:4000::/44 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 170 permit 2600:1f61:4020::/44 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 180 permit 2600:1f61:4040::/44 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 190 permit 2600:1f61:4080::/44 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 200 permit 2600:1f61:40c0::/44 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 210 permit 2600:1fa0:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 220 permit 2600:1fb9:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 230 permit 2600:1fef:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 240 permit 2600:1ff0:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 250 permit 2600:1ff4:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 260 permit 2600:1ff8:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 270 permit 2600:1ff9:4000::/39 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 280 permit 2600:1ffa:4000::/40 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 290 permit 2600:f0f0:6104::/48 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 300 permit 2600:f0f2:7013::/48 le 48
-ipv6 prefix-list aws-s3-us-west-2 seq 310 permit 2600:f0f2:7017::/48 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 160 permit 2600:1f61:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 170 permit 2600:1fa0:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 180 permit 2600:1fb9:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 190 permit 2600:1fef:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 200 permit 2600:1ff0:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 210 permit 2600:1ff4:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 220 permit 2600:1ff8:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 230 permit 2600:1ff9:4000::/39 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 240 permit 2600:1ffa:4000::/40 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 250 permit 2600:f0f0:6104::/48 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 260 permit 2600:f0f2:7013::/48 le 48
+ipv6 prefix-list aws-s3-us-west-2 seq 270 permit 2600:f0f2:7017::/48 le 48
