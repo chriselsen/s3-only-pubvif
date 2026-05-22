@@ -1,0 +1,15 @@
+/* S3 prefix list for us-south-1 */
+/* Last updated: 2026-05-22 19:06:41 UTC */
+policy-options {
+    prefix-list aws-s3-us-south-1 {
+        2600:1f60:800::/40 orlonger;
+        2600:1f61:800::/40 orlonger;
+        2600:1fa0:800::/40 orlonger;
+        2600:1fb9:800::/40 orlonger;
+        2600:1fef:800::/40 orlonger;
+        2600:1ff0:800::/40 orlonger;
+        2600:1ff4:800::/40 orlonger;
+        2600:1ff8:800::/40 orlonger;
+        2600:1ff9:800::/40 orlonger;
+    }
+}

@@ -1,5 +1,5 @@
 /* S3 prefix list for me-central-1 */
-/* Last updated: 2026-03-12 18:26:33 UTC */
+/* Last updated: 2026-05-22 19:06:41 UTC */
 policy-options {
     prefix-list aws-s3-me-central-1 {
         1.178.20.0/24 orlonger;
@@ -7,6 +7,7 @@ policy-options {
         52.95.187.0/24 orlonger;
         52.95.188.0/23 orlonger;
         2406:da60:7000::/40 orlonger;
+        2406:da61:7000::/40 orlonger;
         2406:daa0:7000::/40 orlonger;
         2406:dab9:7000::/40 orlonger;
         2406:daef:7000::/40 orlonger;

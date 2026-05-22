@@ -1,5 +1,5 @@
 /* S3 prefix list for us-gov-east-1 */
-/* Last updated: 2026-04-21 03:24:19 UTC */
+/* Last updated: 2026-05-22 19:06:41 UTC */
 policy-options {
     prefix-list aws-s3-us-gov-east-1 {
         108.175.52.0/22 orlonger;
@@ -7,6 +7,7 @@ policy-options {
         3.2.100.0/24 orlonger;
         31.220.252.0/24 orlonger;
         2600:1f60:5000::/40 orlonger;
+        2600:1f61:5000::/40 orlonger;
         2600:1fa0:5000::/40 orlonger;
         2600:1fb9:5000::/40 orlonger;
         2600:1fef:5000::/40 orlonger;

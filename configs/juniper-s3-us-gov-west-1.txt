@@ -1,5 +1,5 @@
 /* S3 prefix list for us-gov-west-1 */
-/* Last updated: 2026-04-20 23:26:38 UTC */
+/* Last updated: 2026-05-22 19:06:41 UTC */
 policy-options {
     prefix-list aws-s3-us-gov-west-1 {
         1.178.30.0/24 orlonger;
@@ -8,6 +8,7 @@ policy-options {
         136.18.0.0/23 orlonger;
         3.2.99.0/24 orlonger;
         2600:1f60:2000::/40 orlonger;
+        2600:1f61:2000::/40 orlonger;
         2600:1fa0:2000::/40 orlonger;
         2600:1fb9:2000::/40 orlonger;
         2600:1fef:2000::/40 orlonger;

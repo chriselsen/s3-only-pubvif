@@ -1,5 +1,5 @@
 /* S3 prefix list for me-south-1 */
-/* Last updated: 2026-03-16 21:55:19 UTC */
+/* Last updated: 2026-05-22 19:06:41 UTC */
 policy-options {
     prefix-list aws-s3-me-south-1 {
         1.178.16.0/24 orlonger;
@@ -10,6 +10,7 @@ policy-options {
         2600:f0f0:6111::/48 orlonger;
         2600:f0f1:86::/48 orlonger;
         2a05:d030:e000::/40 orlonger;
+        2a05:d031:e000::/40 orlonger;
         2a05:d050:e000::/40 orlonger;
         2a05:d059:e000::/40 orlonger;
         2a05:d06f:e000::/40 orlonger;
