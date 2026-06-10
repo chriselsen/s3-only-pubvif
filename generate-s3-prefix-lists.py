@@ -18,6 +18,7 @@ REGION_INFO = {
     'us-east-2': ('us', 'USA', 'US East (Ohio)'),
     'us-west-1': ('us', 'USA', 'US West (N. California)'),
     'us-west-2': ('us', 'USA', 'US West (Oregon)'),
+    'us-south-1': ('us', 'USA', 'US South (Texas)'),
     'us-gov-east-1': ('us', 'USA', 'AWS GovCloud (US-East)'),
     'us-gov-west-1': ('us', 'USA', 'AWS GovCloud (US-West)'),
     'ca-central-1': ('ca', 'Canada', 'Canada (Central)'),
