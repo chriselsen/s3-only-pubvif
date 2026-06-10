@@ -75,7 +75,7 @@ Last updated: 2026-05-22 19:06:41 UTC
 | us-east-2 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US East (Ohio) | [Cisco Config](../../raw/main/configs/cisco-s3-us-east-2.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-east-2.txt) |
 | us-gov-east-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | AWS GovCloud (US-East) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-east-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-east-1.txt) |
 | us-gov-west-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | AWS GovCloud (US-West) | [Cisco Config](../../raw/main/configs/cisco-s3-us-gov-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-gov-west-1.txt) |
-| us-south-1 | <img src="../../raw/main/images/flags/xx.svg" width="25px"> Unknown | us-south-1 | [Cisco Config](../../raw/main/configs/cisco-s3-us-south-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-south-1.txt) |
+| us-south-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US South (Texas) | [Cisco Config](../../raw/main/configs/cisco-s3-us-south-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-south-1.txt) |
 | us-west-1 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US West (N. California) | [Cisco Config](../../raw/main/configs/cisco-s3-us-west-1.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-west-1.txt) |
 | us-west-2 | <img src="../../raw/main/images/flags/us.svg" width="25px"> USA | US West (Oregon) | [Cisco Config](../../raw/main/configs/cisco-s3-us-west-2.txt) | [Juniper Config](../../raw/main/configs/juniper-s3-us-west-2.txt) |
 
