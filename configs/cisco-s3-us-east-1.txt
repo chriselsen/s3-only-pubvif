@@ -1,5 +1,5 @@
 ! S3 prefix list for us-east-1
-! Last updated: 2026-08-27 10:50:26 UTC
+! Last updated: 2026-09-01 00:52:26 UTC
 !
 ip prefix-list aws-s3-us-east-1 seq 10 permit 1.178.4.0/24 le 24
 ip prefix-list aws-s3-us-east-1 seq 20 permit 1.178.5.0/24 le 24
@@ -37,6 +37,7 @@ ipv6 prefix-list aws-s3-us-east-1 seq 330 permit 2600:1ffa:8000::/40 le 48
 ipv6 prefix-list aws-s3-us-east-1 seq 340 permit 2600:f0f0:6100::/48 le 48
 ipv6 prefix-list aws-s3-us-east-1 seq 350 permit 2600:f0f0:6101::/48 le 48
 ipv6 prefix-list aws-s3-us-east-1 seq 360 permit 2600:f0f0:610a::/48 le 48
-ipv6 prefix-list aws-s3-us-east-1 seq 370 permit 2600:f0f2:7010::/48 le 48
-ipv6 prefix-list aws-s3-us-east-1 seq 380 permit 2600:f0f2:7011::/48 le 48
-ipv6 prefix-list aws-s3-us-east-1 seq 390 permit 2600:f0f2:7012::/48 le 48
+ipv6 prefix-list aws-s3-us-east-1 seq 370 permit 2600:f0f0:6127::/48 le 48
+ipv6 prefix-list aws-s3-us-east-1 seq 380 permit 2600:f0f2:7010::/48 le 48
+ipv6 prefix-list aws-s3-us-east-1 seq 390 permit 2600:f0f2:7011::/48 le 48
+ipv6 prefix-list aws-s3-us-east-1 seq 400 permit 2600:f0f2:7012::/48 le 48
