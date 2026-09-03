@@ -1,19 +1,21 @@
 ! S3 prefix list for ap-south-2
-! Last updated: 2026-05-22 19:06:41 UTC
+! Last updated: 2026-09-03 12:19:50 UTC
 !
 ip prefix-list aws-s3-ap-south-2 seq 10 permit 1.178.23.0/24 le 24
-ip prefix-list aws-s3-ap-south-2 seq 20 permit 3.2.90.0/24 le 24
-ip prefix-list aws-s3-ap-south-2 seq 30 permit 3.5.44.0/22 le 24
-ip prefix-list aws-s3-ap-south-2 seq 40 permit 52.95.184.0/23 le 24
-ip prefix-list aws-s3-ap-south-2 seq 50 permit 52.95.186.0/24 le 24
-ipv6 prefix-list aws-s3-ap-south-2 seq 60 permit 2406:da60:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 70 permit 2406:da61:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 80 permit 2406:daa0:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 90 permit 2406:dab9:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 100 permit 2406:daef:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 110 permit 2406:daf0:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 120 permit 2406:daf4:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 130 permit 2406:daf8:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 140 permit 2406:daf9:b000::/40 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 150 permit 2600:f0f0:611a::/48 le 48
-ipv6 prefix-list aws-s3-ap-south-2 seq 160 permit 2600:f0f1:8d::/48 le 48
+ip prefix-list aws-s3-ap-south-2 seq 20 permit 3.2.117.0/24 le 24
+ip prefix-list aws-s3-ap-south-2 seq 30 permit 3.2.90.0/24 le 24
+ip prefix-list aws-s3-ap-south-2 seq 40 permit 3.5.44.0/22 le 24
+ip prefix-list aws-s3-ap-south-2 seq 50 permit 52.95.184.0/23 le 24
+ip prefix-list aws-s3-ap-south-2 seq 60 permit 52.95.186.0/24 le 24
+ipv6 prefix-list aws-s3-ap-south-2 seq 70 permit 2406:da60:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 80 permit 2406:da61:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 90 permit 2406:daa0:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 100 permit 2406:dab9:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 110 permit 2406:daef:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 120 permit 2406:daf0:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 130 permit 2406:daf4:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 140 permit 2406:daf8:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 150 permit 2406:daf9:b000::/40 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 160 permit 2600:f0f0:611a::/48 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 170 permit 2600:f0f0:6135::/48 le 48
+ipv6 prefix-list aws-s3-ap-south-2 seq 180 permit 2600:f0f1:8d::/48 le 48
