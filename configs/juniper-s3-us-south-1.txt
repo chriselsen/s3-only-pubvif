@@ -1,7 +1,8 @@
 /* S3 prefix list for us-south-1 */
-/* Last updated: 2026-05-22 19:06:41 UTC */
+/* Last updated: 2026-09-03 01:51:33 UTC */
 policy-options {
     prefix-list aws-s3-us-south-1 {
+        16.15.60.0/22 orlonger;
         2600:1f60:800::/40 orlonger;
         2600:1f61:800::/40 orlonger;
         2600:1fa0:800::/40 orlonger;

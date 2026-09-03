@@ -34,7 +34,7 @@ With BGP prefix filtering in place:
 
 ## Configuration Files
 
-Last updated: 2026-09-01 00:52:26 UTC
+Last updated: 2026-09-03 01:51:33 UTC
 
 | Region | Country | Region Name | Cisco IOS | Juniper |
 | --- | --- | --- | --- | --- |

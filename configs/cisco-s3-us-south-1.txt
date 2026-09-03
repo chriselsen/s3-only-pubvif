@@ -1,12 +1,13 @@
 ! S3 prefix list for us-south-1
-! Last updated: 2026-05-22 19:06:41 UTC
+! Last updated: 2026-09-03 01:51:33 UTC
 !
-ipv6 prefix-list aws-s3-us-south-1 seq 10 permit 2600:1f60:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 20 permit 2600:1f61:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 30 permit 2600:1fa0:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 40 permit 2600:1fb9:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 50 permit 2600:1fef:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 60 permit 2600:1ff0:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 70 permit 2600:1ff4:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 80 permit 2600:1ff8:800::/40 le 48
-ipv6 prefix-list aws-s3-us-south-1 seq 90 permit 2600:1ff9:800::/40 le 48
+ip prefix-list aws-s3-us-south-1 seq 10 permit 16.15.60.0/22 le 24
+ipv6 prefix-list aws-s3-us-south-1 seq 20 permit 2600:1f60:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 30 permit 2600:1f61:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 40 permit 2600:1fa0:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 50 permit 2600:1fb9:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 60 permit 2600:1fef:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 70 permit 2600:1ff0:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 80 permit 2600:1ff4:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 90 permit 2600:1ff8:800::/40 le 48
+ipv6 prefix-list aws-s3-us-south-1 seq 100 permit 2600:1ff9:800::/40 le 48
