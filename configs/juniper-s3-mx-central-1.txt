@@ -1,5 +1,5 @@
 /* S3 prefix list for mx-central-1 */
-/* Last updated: 2026-05-22 19:06:41 UTC */
+/* Last updated: 2026-09-09 19:59:10 UTC */
 policy-options {
     prefix-list aws-s3-mx-central-1 {
         1.178.29.0/24 orlonger;
@@ -9,8 +9,10 @@ policy-options {
         3.5.192.0/22 orlonger;
         2600:1f60:7400::/40 orlonger;
         2600:1f61:7400::/40 orlonger;
+        2600:1f62:7400::/40 orlonger;
         2600:1fa0:7400::/40 orlonger;
         2600:1fb9:7400::/40 orlonger;
+        2600:1fe7:7400::/40 orlonger;
         2600:1fef:7400::/40 orlonger;
         2600:1ff0:7400::/40 orlonger;
         2600:1ff4:7400::/40 orlonger;
