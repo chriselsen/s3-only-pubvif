@@ -1,5 +1,5 @@
 /* S3 prefix list for us-east-1 */
-/* Last updated: 2026-10-07 18:57:57 UTC */
+/* Last updated: 2026-10-07 22:25:40 UTC */
 policy-options {
     prefix-list aws-s3-us-east-1 {
         1.178.4.0/24 orlonger;
@@ -17,6 +17,10 @@ policy-options {
         16.15.72.0/22 orlonger;
         16.15.76.0/22 orlonger;
         16.15.80.0/22 orlonger;
+        16.15.84.0/22 orlonger;
+        16.15.88.0/22 orlonger;
+        16.15.92.0/22 orlonger;
+        16.15.96.0/22 orlonger;
         16.182.0.0/16 orlonger;
         18.34.0.0/19 orlonger;
         18.34.232.0/21 orlonger;
